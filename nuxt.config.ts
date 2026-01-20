@@ -20,8 +20,12 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2024-07-11',
+  future: {
+    compatibilityVersion: 4,
+  },
 
   nitro: {
+    preset: 'netlify',
     prerender: {
       routes: [
         '/'
@@ -37,5 +41,9 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  typescript: {
+    typeCheck: false
   }
 })
