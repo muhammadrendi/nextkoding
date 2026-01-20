@@ -1,0 +1,12 @@
+# public/robots.txt
+
+# Izinkan semua bot mengakses semua halaman
+User-agent: *
+Allow: /
+
+# Blokir halaman yang tidak perlu di-index
+Disallow: /_nuxt/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://nextkoding.com/sitemap.xml

@@ -90,7 +90,7 @@ function onSubmit() {
 
     <template #left>
       <p class="text-muted text-sm">
-        Built with Nuxt UI • © {{ new Date().getFullYear() }}
+        Next Koding • © {{ new Date().getFullYear() }}
       </p>
     </template>
 

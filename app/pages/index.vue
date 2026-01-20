@@ -1,5 +1,8 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('index', () => queryCollection('index').first())
+import type { PageData, SectionData } from '~/types'
+const { data: page } = await useAsyncData('index', () => 
+  queryCollection('index').first()
+) as { data: Ref<PageData | null> }
 
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
@@ -15,35 +18,22 @@ useSeoMeta({
 
 <template>
   <div v-if="page">
-    <UPageHero
-      :title="page.title"
-      :description="page.description"
-      :links="page.hero.links"
-    >
-      <template #top>
-        <HeroBackground />
-      </template>
-
-      <template #title>
-        <MDC
-          :value="page.title"
-          unwrap="p"
-        />
-      </template>
-
-      <PromotionalVideo />
-    </UPageHero>
 
     <UPageSection
       v-for="(section, index) in page.sections"
       :key="index"
-      :title="section.title"
-      :description="section.description"
-      :orientation="section.orientation"
-      :reverse="section.reverse"
-      :features="section.features"
+      v-bind="section"
     >
-      <ImagePlaceholder />
+      <template #top>
+        <HeroBackground />
+      </template>
+      <LazyStarsBg />
+      <NuxtImg
+        v-if="section.image"
+        :src="section.image.src"
+        :alt="section.image.alt"
+        class="w-full rounded-lg"
+      />
     </UPageSection>
 
     <UPageSection

@@ -1,150 +1,143 @@
-title: Ship Your [SaaS]{class="text-primary"} at light speed
-description: Build production-ready SaaS applications with Nuxt UI's powerful components, authentication flows, and enterprise features. The same component library trusted by the entire Nuxt ecosystem.
 seo:
-  title: Nuxt UI SaaS Template
-  description: Create stunning, fast and production-ready SaaS applications with Nuxt UI. 100+ Vue components, authentication, dark mode, and enterprise features built on Tailwind CSS.
-navigation: false
+  title: Jasa Pembuatan Website Profesional | NextKoding
+  description: Layanan pembuatan website modern dan responsif untuk bisnis Anda. Company profile, landing page, dan custom web application dengan teknologi terkini.
+
+navigation: true
+
 hero:
+  title: Jasa Pembuatan Website Profesional
+  description: Website cepat, modern, dan mobile-friendly untuk mengembangkan bisnis Anda secara online.
   links:
-    - label: Get started
-      icon: i-lucide-arrow-right
+    - label: Konsultasi Gratis
+      icon: i-lucide-message-circle
       trailing: true
-      to: https://ui.nuxt.com/docs/getting-started/installation/nuxt
-      target: _blank
+      to: /
       size: xl
-    - label: Use this template
-      icon: i-simple-icons-github
+    - label: Lihat Portfolio
+      icon: i-lucide-briefcase
       size: xl
       color: neutral
       variant: subtle
-      to: https://github.com/nuxt-ui-templates/saas
+      to: /portfolio
       target: _blank
+
 sections:
-  - title: Powered by Nuxt UI Components
-    description: Access the complete Nuxt UI component library with 100+ beautifully styled, accessible, and customizable Vue components. Everything you need to build professional SaaS applications.
-    id: features
+  - title: Jasa Pembuatan Website
+    description: Solusi website lengkap untuk berbagai kebutuhan bisnis Anda dengan teknologi modern.
+    id: services
+    image:
+      src: /images/img-hero.webp
+      alt: Jasa Pembuatan Website Profesional
     orientation: horizontal
+    links:
+      - label: Lihat Paket Harga
+        to: /pricing
+        trailingIcon: i-lucide-arrow-right
     features:
-      - name: 100+ UI Components
-        description: From buttons to modals, data tables to forms - all styled with Tailwind CSS and accessible out of the box.
-        icon: i-lucide-package
-      - name: Authentication Ready
-        description: Pre-built login, signup, and password reset flows. Just connect your backend and start onboarding users.
-        icon: i-lucide-shield
-      - name: TypeScript First
-        description: Full TypeScript support with auto-completion, type safety, and IntelliSense for every component and composable.
+      - name: Website Company Profile
+        description: Tampilkan bisnis secara profesional. Cocok untuk perusahaan, UKM, dan startup.
+        icon: i-lucide-building-2
+      - name: Web Application Custom
+        description: Dashboard admin, sistem manajemen, atau platform sesuai kebutuhan bisnis Anda.
         icon: i-lucide-code-2
-  - title: Built for Modern SaaS
-    description: Everything you need to launch and scale your SaaS. From beautiful marketing pages to complex dashboards, ship faster with production-ready patterns.
-    orientation: horizontal
-    reverse: true
-    features:
-      - name: Edge Performance
-        description: Optimized for Core Web Vitals with automatic code splitting, lazy loading, and SSR/SSG support.
-        icon: i-lucide-zap
-      - name: Dark Mode Ready
-        description: Automatic theme switching with smooth transitions. Respects system preferences and remembers user choice.
-        icon: i-lucide-moon
-      - name: Global Ready
-        description: Built-in i18n support for 50+ languages with RTL/LTR layouts and @nuxt/fonts integration.
-        icon: i-lucide-globe
+
 features:
-  title: Everything You Need to Ship
-  description: Stop building from scratch. Focus on your unique features while Nuxt UI handles the foundations with battle-tested components and patterns.
+  title: Keunggulan Layanan Kami
+  description: Mengapa ratusan bisnis mempercayakan pembuatan website mereka kepada kami.
   items:
-    - title: Beautiful Design System
-      description: Semantic color aliases, comprehensive design tokens, and Tailwind Variants for consistent, customizable styling.
+    - title: Desain Modern & Responsif
+      description: UI/UX yang user-friendly dan eye-catching. Tampil sempurna di semua device dari smartphone hingga desktop.
       icon: i-lucide-palette
-    - title: Accessible by Default
-      description: Built on Reka UI for robust accessibility. WCAG compliant components that work for everyone, everywhere.
-      icon: i-lucide-accessibility
-    - title: Developer Experience
-      description: Auto-imports, hot module replacement, and comprehensive documentation. Build faster with less friction.
-      icon: i-lucide-terminal
-    - title: SEO Optimized
-      description: Server-side rendering, automatic meta tags, sitemap generation, and Open Graph images out of the box.
+    - title: Performance Optimal
+      description: Google PageSpeed 90+ score. Loading super cepat untuk user experience terbaik dan ranking SEO yang lebih baik.
+      icon: i-lucide-zap
+    - title: Teknologi Terkini
+      description: Menggunakan framework modern seperti Vue.js, Nuxt, dan Tailwind CSS. Website selalu up-to-date dengan standar industri.
+      icon: i-lucide-cpu
+    - title: SEO Friendly
+      description: Optimasi SEO dari awal. Meta tags, sitemap, structured data, dan best practices untuk visibility maksimal di Google.
       icon: i-lucide-search
-    - title: Production Ready
-      description: Error handling, loading states, form validation, and security best practices built into every component.
-      icon: i-lucide-check-circle
-    - title: Infinitely Customizable
-      description: Override any style with the ui prop, customize globally with AppConfig, or use Tailwind classes directly.
-      icon: i-lucide-settings
+    - title: Secure & Reliable
+      description: SSL certificate, security best practices, dan regular backup. Website Anda aman dari ancaman cyber.
+      icon: i-lucide-shield-check
+    - title: Support & Maintenance
+      description: Garansi 3 bulan support gratis. Bug fixing, update konten, dan konsultasi teknis untuk memastikan website selalu optimal.
+      icon: i-lucide-headphones
+
 testimonials:
-  headline: Trusted by Developers
-  title: Join Thousands Building with Nuxt UI
-  description: See why developers choose Nuxt UI to ship their SaaS applications faster and with more confidence.
+  headline: Dipercaya Klien Kami
+  title: Apa Kata Mereka Tentang Layanan Kami
+  description: Testimoni dari berbagai bisnis yang telah mempercayakan pembuatan website mereka kepada kami.
   items:
-    - quote: Nuxt UI transformed how we build. The component quality is exceptional - everything just works with perfect TypeScript support, accessibility, and dark mode built in.
+    - quote: Website company profile yang dibuat sangat profesional dan sesuai ekspektasi. Proses pengerjaan cepat dan komunikasi lancar. Sangat recommended!
       user:
-        name: Sarah Chen
-        description: CTO at TechScale Solutions
+        name: Budi Santoso
+        description: Owner di Santoso Furniture
         avatar:
           src: https://i.pravatar.cc/120?img=1
-    - quote: We shipped our MVP in 2 weeks instead of 2 months. The authentication flows and form components saved us countless hours of development time.
+    - quote: Landing page untuk campaign kami menghasilkan konversi 3x lebih tinggi. Design menarik dan loading super cepat. Worth every penny!
       user:
-        name: Marcus Rodriguez
-        description: VP of Engineering at DataFlow
-        avatar:
-          src: https://i.pravatar.cc/120?img=7
-    - quote: The design system with AppConfig is brilliant. We maintain brand consistency across all our products while leveraging the full component library.
-      user:
-        name: David Kumar
-        description: Security Director at SecureStack
-        avatar:
-          src: https://i.pravatar.cc/120?img=3
-    - quote: Perfect Lighthouse scores out of the box. Our Core Web Vitals improved dramatically just by switching to Nuxt UI components.
-      user:
-        name: Emily Zhang
-        description: Lead Architect at ScaleForce
+        name: Sarah Wijaya
+        description: Marketing Manager di Digital Solution
         avatar:
           src: https://i.pravatar.cc/120?img=5
-    - quote: The Tailwind Variants system makes customization so intuitive. We can override any component style while keeping the functionality intact.
+    - quote: Tim sangat responsif dan profesional. Website kami selesai tepat waktu dengan kualitas yang melampaui ekspektasi. Terima kasih NextKoding!
       user:
-        name: James Wilson
-        description: DevOps Lead at CloudPro
+        name: Ahmad Rahman
+        description: CEO di TechStart Indonesia
         avatar:
-          src: https://i.pravatar.cc/120?img=8
-    - quote: From the SaaS template to production in days. The pre-built layouts, navigation, and content structure accelerated our launch.
+          src: https://i.pravatar.cc/120?img=7
+    - quote: Custom web app yang dibangun sesuai kebutuhan bisnis kami. Clean code, dokumentasi lengkap, dan mudah di-maintain. Highly recommended!
       user:
-        name: Lisa Patel
-        description: CEO at AutoScale
-        avatar:
-          src: https://i.pravatar.cc/120?img=9
-    - quote: Reka UI foundation means accessibility is never an afterthought. We achieved WCAG compliance without any custom work.
-      user:
-        name: Michael Torres
-        description: Frontend Lead at AccessFirst
-        avatar:
-          src: https://i.pravatar.cc/120?img=11
-    - quote: The documentation is outstanding. Every component has clear examples, and the community on Discord is incredibly helpful.
-      user:
-        name: Rachel Kim
-        description: Performance Engineer at APIHub
+        name: Linda Chen
+        description: CTO di CloudBiz
         avatar:
           src: https://i.pravatar.cc/120?img=10
-    - quote: We replaced three different UI libraries with Nuxt UI. The consistency and quality across all components is unmatched.
+    - quote: Harga transparan dan tidak ada hidden cost. Hasil website sangat memuaskan, bahkan clients saya banyak yang compliment tentang websitenya.
       user:
-        name: Thomas Weber
-        description: UI Architecture Lead at DesignScale
+        name: Dimas Prasetyo
+        description: Founder di Kreasi Digital
+        avatar:
+          src: https://i.pravatar.cc/120?img=8
+    - quote: Support after sales sangat baik. Setiap ada kendala langsung dibantu. Website kami selalu update dan performance tetap optimal.
+      user:
+        name: Rina Marlina
+        description: Owner di Fashion Boutique
+        avatar:
+          src: https://i.pravatar.cc/120?img=9
+    - quote: Portfolio website yang dibuat sangat membantu branding personal saya. Design minimalis tapi elegan, persis seperti yang saya mau!
+      user:
+        name: Eko Nugroho
+        description: UI/UX Designer Freelance
+        avatar:
+          src: https://i.pravatar.cc/120?img=11
+    - quote: Website toko online kami jadi lebih modern dan user-friendly. Penjualan meningkat signifikan sejak launching website baru. Thanks team!
+      user:
+        name: Siti Nurhaliza
+        description: Owner di Batik Nusantara
         avatar:
           src: https://i.pravatar.cc/120?img=12
-    - quote: The integration with Nuxt modules is seamless. Color mode, fonts, icons - everything works together perfectly.
+    - quote: Proses revisi sangat kooperatif. Tim selalu terbuka untuk feedback dan berusaha memberikan hasil terbaik. Puas banget!
       user:
-        name: Sophia Martinez
-        description: Integration Specialist at TechFlow
+        name: Rizky Fauzi
+        description: Business Development di StartHub
+        avatar:
+          src: https://i.pravatar.cc/120?img=3
+    - quote: Website klinik kami sekarang lebih profesional dan mudah digunakan pasien. Fitur booking online juga berfungsi dengan sempurna!
+      user:
+        name: Dr. Maya Sari
+        description: Direktur di Klinik Sehat Sentosa
         avatar:
           src: https://i.pravatar.cc/120?img=14
+
 cta:
-  title: Ready to build an amazing SaaS?
-  description: Join thousands of developers building with Nuxt and Nuxt UI. Get this template and start shipping today.
+  title: Siap Wujudkan Website Impian Anda?
+  description: Konsultasi gratis untuk diskusikan kebutuhan website bisnis Anda. Dapatkan quotation dan timeline project hari ini juga.
   links:
-    - label: Start building
-      to: 'https://ui.nuxt.com/docs/getting-started/installation/nuxt'
-      target: _blank
-      trailingIcon: i-lucide-arrow-right
-    - label: View on GitHub
-      to: 'https://github.com/nuxt-ui-templates/saas'
-      target: _blank
+    - label: Hubungi Kami Sekarang
+      to: /
+      trailingIcon: i-lucide-send
+    - label: Lihat Paket Harga
+      to: /pricing
       variant: subtle
-      icon: i-simple-icons-github
+      icon: i-lucide-tag
