@@ -45,5 +45,12 @@ export default defineNuxtConfig({
 
   typescript: {
     typeCheck: false
+  },
+  experimental: {
+    payloadExtraction: false
+  },
+  image: {
+    provider: 'none'
   }
+
 })

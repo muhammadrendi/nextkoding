@@ -23,7 +23,7 @@ hero:
 
 sections:
   - title: Jasa Pembuatan Website
-    description: Solusi website lengkap untuk berbagai kebutuhan bisnis Anda dengan teknologi modern.
+    description: Solusi website lengkap untuk berbagai kebutuhan bisnis Anda.
     id: services
     image:
       src: /images/img-hero.webp
