@@ -3,7 +3,7 @@
 
 [build]
   publish = "dist"
-  command = "pnpm install && pnpm run generate"
+  command = "pnpm install && pnpm run build"
 
 # Nonaktifkan Netlify Image CDN untuk external images
 [images]
